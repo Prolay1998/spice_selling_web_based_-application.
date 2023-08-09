@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <style>
+        .reg{
+            background-color: aqua;
+            padding:25px;
+            display: block;
+            overflow: hidden;
+            margin:0%;
+            border:3px solid black;
+        }
+        .reg:hover{
+            background-color: mediumpurple;
+        }
+        .fml input[type=text],.fml input[type=password]{
+            height:20px;
+            border:1px solid black;
+            text-align: left;
+        }
+        .fml input[type=text]:hover,.fml input[type=password]:hover{
+            background-color:coral;
+        }
+        .fml input[type=submit]{
+            height:20px;
+            width:60px;
+            border:1px solid black;
+            color:white;
+            background-color:dimgray;
+        }
+        .fml input[type=submit]:hover{
+            background-color: brown;
+        }
+        .reg a:hove{
+            color:brown;
+
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="reg">
+        <h1 style="font-size:30px;text-align:left;"><b>sign up</b></h1>
+        <p style="font-size:20px;">Please fill in this form to create an account in Spice-Z</p>
+        <div class="fml">
+            <form>
+                <input type="text" id="fname" name="fname" size="40" placeholder="First Name">
+                <input type="text" id="lname" name="lname" size="40" placeholder="last Name"><br><br>
+                <input type="text" id="usi" name="usi" size="50" placeholder="email/phone number" required><br><br>
+                <input type="password" id="pss" name="pss" size="50" placeholder="password" required><br><br>
+                <input type="text" id="pse" name="pse" size="50" placeholder="Confirm password" required><br><br>
+                <input type="checkbox" id="confirmation" name="confirmation">
+                <label for="confirmation">I accept all <a href="#" target="_blank">terms and condition.</a> </label><br><br>
+                <input type="submit" value="Sign-up" size="30">  
+            </form>
+            <p><a href="login.html" target="_self"><b>BACK</b></a></p>
+        </div>
+    </div>    
+</body>
+</html>
